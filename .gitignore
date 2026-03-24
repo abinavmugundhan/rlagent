@@ -1,0 +1,45 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Checkpoints & logs
+checkpoints/
+logs/
+*.pt
+*.pth
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate*
+terraform/tmp/
+terraform/.terraform.lock.hcl
+
+# Environment & secrets
+.env
+*.pem
+*service-account*.json
+
+# Node
+node_modules/
+dashboard/dist/
+
+# OS
+.DS_Store
+Thumbs.db
